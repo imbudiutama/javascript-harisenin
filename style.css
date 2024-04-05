@@ -6,6 +6,26 @@ body{
 span{
     color: red;
 }
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+/* First Section Styling*/
+
+#bmi-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg, #f58787 0%, #3f5efb 100%);
+}
+
 .wrapper{
     position: absolute;
     top: 50%;
@@ -32,6 +52,17 @@ button{
     cursor: pointer;
 }
 
+/* Second Section Styling*/
+
+.recipe-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg, #f58787 0%, #3f5efb 100%);
+}
 .container {
     background-color: #ffffff;
     font-size: 16px;
